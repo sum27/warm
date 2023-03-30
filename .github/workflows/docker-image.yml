@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Building Docker Image
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           # 涓嬫柟鐨刵ame鏍煎紡涓猴細Docker Hub ID/鑷畾涔夐暅鍍忓悕绉?          
           name: forever27/sunny
